@@ -1,0 +1,25 @@
+# ============================================================
+# OCRS — Course Connect · .gitignore
+# ============================================================
+
+# 🔐 Sensitive config — create your own db_connect.php locally
+# db_connect.php  ← uncomment this if you add real credentials
+
+# 📁 User uploaded files
+uploads/
+
+# 🗂 Session files
+sessions/
+
+# 🖥 OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 🛠 IDE
+.vscode/
+.idea/
+
+# 🪵 Logs
+*.log
+error_log
