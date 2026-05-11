@@ -12,36 +12,38 @@
 
 Course Connect is a web-based platform where students can browse and enroll in courses, and administrators can manage the entire system — students, courses, departments, results, and reports.
 
-| Role | Capabilities |
-|---|---|
-| **Student** | Register · Browse courses · Enroll · View results · Manage profile |
-| **Admin** | Manage students · Manage courses · View enrollments · Generate reports · System settings |
+### Student Portal
+Browse available courses, enroll based on eligibility, view academic results, manage profile and track enrolled programs.
+
+### Admin Portal
+Manage students, courses, and departments. View enrollment data, generate reports, configure system settings and handle pending requests.
 
 ---
 
 ## Tech Stack
 
-PHP · MySQL · HTML5 · CSS3 · Vanilla JavaScript · Font Awesome · Google Fonts
+`PHP` · `MySQL` · `HTML5` · `CSS3` · `JavaScript` · `Font Awesome`
 
 ---
 
 ## Pages
 
-| File | Description |
+| Page | Description |
 |---|---|
-| `index.php` | Public landing page |
-| `student_page.php` | Student login & register |
-| `admin_page.php` | Admin login & register |
-| `student_dashboard.php` | Student home — courses, notifications |
-| `admin_dashboard.php` | Admin home — stats, activity |
-| `enroll.php` | Course catalog with eligibility check |
-| `my_courses.php` | Enrolled courses |
-| `results.php` | Academic results |
-| `reports.php` | Admin reports & analytics |
-| `course_management.php` | Add / edit / delete courses |
-| `department.php` | Department management |
-| `system_settings.php` | System-wide settings |
+| `index.php` | Public landing page — course listings and live stats |
+| `student_page.php` | Student login & registration |
+| `admin_page.php` | Admin login & registration |
+| `student_dashboard.php` | Student home — enrolled courses, notifications |
+| `admin_dashboard.php` | Admin home — system stats, recent activity |
+| `enroll.php` | Course catalog with eligibility check and enrollment |
+| `my_courses.php` | Student's enrolled courses |
+| `results.php` | Student's academic results |
+| `course_management.php` | Admin: Add / edit / delete courses |
+| `department.php` | Admin: Department management |
+| `reports.php` | Admin: Reports and analytics |
 
 ---
 
-© 2025 • [github.com/Gyandeep09](https://github.com/Gyandeep09)
+## License
+
+Open-source under the [MIT License](LICENSE).
